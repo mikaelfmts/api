@@ -8,12 +8,12 @@ app.use(express.json());
 
 // Configuração do servidor Minecraft
 const rconOptions = {
-    host: 'loascenty-sp4-03.elgaehost.com.br',  // Endereço IP do servidor Minecraft
+    host: '',  // Endereço IP do servidor Minecraft
     port: 25725,        // Porta do RCON
-    password: 'NOva+@87el'  // Senha do RCON
+    password: ''  // Senha do RCON
 };
 
-// Endpoint para realizar a ação de dar pontos ao jogador
+// Endpoint para realizar a ação de dar pontos ao jogador, se for de sua preferencia, pode retirar o comando /givepoints, ele nao é importante.
 app.post('/givepoints', async (req, res) => {
     const { playerName, amount } = req.body;
 
