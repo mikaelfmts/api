@@ -1,0 +1,6 @@
+"minecraft api"
+
+is a BOT, made to link to "discordsrv" through the BOT-token, 
+created on the discord developer platform. By linking the DiscordSRV plugin with Minecraft-API and giving admin authorization to the bot,
+it will assist in linking your minecraft server and discord. The DiscordSRV plugin contains many possibilities, 
+check the DiscordSRV config.yml to find out which functions can be created on your server.
